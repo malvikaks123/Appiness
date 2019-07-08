@@ -1,0 +1,115 @@
+/* Application-wide Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.left {
+  float: left;
+  width: 35%;
+
+}
+
+.header-right {
+  float: right;
+}
+
+.full-page{
+  /* background-image: linear-gradient(to bottom, #FFFFFF, #E4ECF4); */
+  padding: 0;
+  background: #1B2126 !important;
+  
+}
+.main-wrapper{
+  width: calc(100% - 60px);
+  float: left;
+  margin: 58px 0 0 60px;
+  padding: 8px 22px 10px 22px;
+   transition: width .5s;
+  
+  
+}
+.main-dashboard-change{
+width: calc(100% - 240px);
+float: left;
+margin-left: 240px;
+/* background-image: linear-gradient(to right, #FFFFFF, #E4ECF4); */
+margin-top: 50px;
+
+
+}
+
+.header-wrapper{
+  /* width: calc(100% - 60px); */
+  float: left;
+  margin-left: 45px;
+  /* margin-top: 30px; */
+ }
+.header-dashboard-change{
+width: calc(100% - 182px);
+float: left;
+margin-left: 240px;
+margin-top: 30px;
+padding-right: 10px;
+}
+
+
+.header-collapsed{
+  width: calc(100% - 250px);
+  left: 250px;
+}
+.assign_training_content{
+  width: 80%;
+  border-radius: 0px;
+
+}
+.skill-match-modal{
+  width:80%;
+
+}
+.pmdmd-modal{
+  width:80%;
+ 
+}
+.modal-content{
+  background-color: #293036;
+  border: 0.071em solid #1B2126;
+  float: left;
+  width: 100%;
+}
+
+::ng-deep .multiselect-dropdown .dropdown-btn .selected-item{
+ 
+     width: 70px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+::ng-deep .multiselect-dropdown .dropdown-btn .selected-item:hover{
+  box-shadow: none !important;
+}
+.centered-modal.in {
+  display: flex !important;
+}
+.centered-modal .modal-dialog {
+  margin: auto;
+}
