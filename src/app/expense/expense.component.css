@@ -1,0 +1,40 @@
+.content-block{
+  background-color: antiquewhite;
+  height: 1000px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.firstrow{
+  margin-bottom: 20px;
+}
+
+.ellipse{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.undo{
+  float: right;
+  margin:5px;
+}
+.yesNo{
+  margin-right: 15px;
+}
+.container-fluid{
+  padding: 0px;
+  margin: 0px;
+}

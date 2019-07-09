@@ -1,0 +1,20 @@
+.content-block{
+    background-color: antiquewhite;
+    height: 1000px;
+  }
+
+  .settings-block1{
+    margin: 30px;
+    margin-top: -10px;
+    
+  }
+
+  .settings-block2{
+    margin: 30px;
+  }
+  .marginl_25{
+    margin-left: 25px
+  }
+  .marginl_40{
+    margin-left: 40px;
+  }

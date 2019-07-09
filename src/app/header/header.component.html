@@ -1,0 +1,34 @@
+<div class="container-fluid">
+
+
+
+
+
+  <div class="header" (expenseUodateEvent)="updateBudget()">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar"
+      style="background-color: antiquewhite;">
+      <button class="w3-bar-item w3-button w3-large" (click)="close()">Close &times;</button>
+
+      <a href="javascript:;" class="w3-bar-item w3-button" (click)="UiHome()">Home</a>
+      <a href="javascript:;" class="w3-bar-item w3-button" (click)="UiSettings()">Settings</a>
+      <a href="javascript:;" class="w3-bar-item w3-button">Profile</a>
+
+    </div>
+    <div id="main">
+
+      <div class="content-block">
+        <button id="openNav" class="w3-button w3-teal w3-xlarge" (click)="open()">&#9776;</button>
+      </div>
+    </div>
+    <div>
+      <h4 class="pull-left">EXPENSE MANAGEMENT SYSTEM</h4>
+      <div class="pull-right">
+        <span>
+          <h4>ALLOCATED BUDGET: ${{uiallocated_Budget}}</h4>
+        </span>
+      </div>
+    </div>
+
+
+  </div>
+</div>
